@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>VA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="home" class="w3-bar-item w3-button">Home</a>
+  <a href="textmining" class="w3-bar-item w3-button">Textmining</a>
+  <a href="record" class="w3-bar-item w3-button">Video History</a>
+  <a href="text_record" class="w3-bar-item w3-button">Textmining History</a>
+  <a href="doctor" class="w3-bar-item w3-button">Find a Doctor</a>
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-purple">
+  <h1>Depression Detection On People of Determination Using AI</h1>
+</div>
+
+{% block content %}
+{% endblock %}
+
+
+
+<!-- Footer-->
+<div class="w3-container w3-purple">
+  <div class="w3-container w3-cell w3-mobile" style="width:85%">
+    <h5>Developed By: Mai Salah Eldin</h5>
+    <div class="w3-container w3-cell">
+
+    </div>
+    <div class="w3-container w3-cell">
+
+    </div>
+  </div>
+  <div class="w3-container w3-cell w3-mobile">
+
+  </div>
+  </div>
+
+</div>
+      
+</body>
+</html>
